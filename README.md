@@ -1,4 +1,4 @@
-# iFood Backend Basic Test
+# Backend Basic Test
 
 Este é um projeto base para demonstração de um micro-serviço RESTful fictício.
 
