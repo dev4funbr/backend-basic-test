@@ -1,4 +1,4 @@
-package com.ifood.controllers;
+package com.ifood.controller;
 
 public class AboutResponse {
 

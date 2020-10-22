@@ -1,4 +1,4 @@
-package com.ifood.controllers;
+package com.ifood.controller;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -27,7 +27,7 @@ public class AboutControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private AboutController aboutController;
+    private AboutControllerImpl aboutController;
 
     @Before
     public void setup() {

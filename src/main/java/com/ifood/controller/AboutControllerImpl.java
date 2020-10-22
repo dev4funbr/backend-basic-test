@@ -1,4 +1,4 @@
-package com.ifood.controllers;
+package com.ifood.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(path = "/about")
-public class AboutController {
+public class AboutControllerImpl implements AboutController {
 
     @ResponseStatus(HttpStatus.OK)
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
